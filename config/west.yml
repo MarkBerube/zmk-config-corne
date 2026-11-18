@@ -9,5 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: 4de313367288aad5aeaa1243890e40dc813f7008
       import: app/west.yml
+    - name: corne-display-art
+      url: https://github.com/MarkBerube/corne-wireless-view-zmk-config
+      revision: 51928cf4b97a3773d5e66c60f3e8721ba3540356
   self:
     path: config
