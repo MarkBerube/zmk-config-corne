@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: corne-display-art
       url: https://github.com/MarkBerube/corne-wireless-view-zmk-config
-      revision: 51928cf4b97a3773d5e66c60f3e8721ba3540356
+      revision: 4ba56971fe296dce2f69e93333346b549db6afaa
   self:
     path: config
