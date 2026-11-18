@@ -38,7 +38,7 @@
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ALT  |
 //                    | LWR | SPC | RSE |   | RSE | ENT  | LWR |
-                        label = "Base";
+                        display-name = "Base";
                         bindings = <
                              &kp TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I &kp O &kp P &kp BSPC
      &kp LCTRL &hm RGUI A &hm LALT S &hm LSHFT D &hm LCTRL F &kp G   &kp H &hm RCTRL J &hm RSHFT K &hm RALT L &hm RGUI SEMI &kp SQT
@@ -52,7 +52,7 @@
 // |  |  LEFT  | DOWN | UP   | RIGHT | ESC |   |  |  -  |  (  |  )  |  `  |  |
 // |  |  BT1   | BT2  | BT3  | BT4   | BTC |   |  |     |  {  |  }  |  \  |  |
 //                    |      |       |     |   |  |     |     |
-                        label = "Nav/Code";
+                        display-name = "Nav/Code";
                         bindings = <
  &trans  &kp K_APP    &kp PG_DN    &kp PG_UP    &kp HOME     &trans        &trans  &kp UNDER    &kp LBKT  &kp RBKT  &kp TILDE  &trans
  &trans  &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &kp ESC       &trans  &kp MINUS    &kp LPAR  &kp RPAR  &kp GRAVE  &trans
@@ -67,7 +67,7 @@
 // |  | & | $ | @ | ! |          |   | F2 |  4  |  5  |  6  |  |  |
 // |  |   | | | % | # |          |   | F3 |  1  |  2  |  3  |  |  |
 //        |   |   |   |          |   |    |     |     |
-                        label = "Numpad";
+                        display-name = "Numpad";
                         bindings = <
    &trans    &kp CARET &kp STAR    &kp KP_PLUS &kp EQUAL  &kp KP_NUM   &kp F1 &kp KP_N7 &kp KP_N8 &kp KP_N9 &trans &trans
    &kp LCTRL &kp AMPS  &kp DLLR    &kp AT      &kp EXCL   &trans       &kp F2 &kp KP_N4 &kp KP_N5 &kp KP_N6 &trans &trans
